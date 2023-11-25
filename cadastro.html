@@ -1,0 +1,44 @@
+<!-- cadastro.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+  <style>
+    body {
+        background-color:black;
+        color: red; /* Define a cor do texto para branco para melhor legibilidade */
+    }
+  </style>
+  <header>
+
+     <h1>Meck Games🕹️</m></h1>
+    <body>
+    <div id="userDisplay">
+        <!-- As informações do usuário serão exibidas aqui -->
+    </div>
+
+
+    <style>
+        body {
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcyYQm0sB4HfMglUOVgifNkRpuQurD3wUW5g&usqp=CAU');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+<body>
+    <h2>Cadastro</h2>
+    <form action="cadastro.php" method="post">
+        <label for="username">Usuário:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Senha:</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="submit">Cadastrar</button>
+    </form>
+    <p>Já tem uma conta? <a href="login.html">Faça login</a></p>
+</body>
+</html>

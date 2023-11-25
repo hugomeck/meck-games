@@ -1,0 +1,48 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  .image {
+    width: 100px; /* Largura das imagens */
+    height: 50px; /* A altura é ajustada automaticamente para manter a proporção original */
+    margin: 5px; /* Espaçamento entre as imagens */
+  }
+  .image-row {
+      display: flex;
+      overflow: auto; /* Adiciona uma barra de rolagem horizontal se necessário */
+  }
+  
+  .image {
+      width: 100px; /* Largura das imagens */
+      height: 50px; /* A altura é ajustada automaticamente para manter a proporção original */
+      margin: 5px; /* Espaçamento entre as imagens */
+  }
+  body {
+      font-family: Arial, sans-serif;
+  }
+  
+  .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+  }
+  
+  .form {
+      margin: 20px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+  }
+  
+  input {
+      display: block;
+      margin: 10px 0;
+      padding: 5px;
+  }
+  
+  button {
+      padding: 5px 10px;
+  }
+  
+  
