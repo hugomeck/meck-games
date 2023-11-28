@@ -3,19 +3,19 @@ html {
     width: 100%;
   }
   .image {
-    width: 100px; /* Largura das imagens */
-    height: 50px; /* A altura é ajustada automaticamente para manter a proporção original */
-    margin: 5px; /* Espaçamento entre as imagens */
+    width: 100px;
+    height: 50px;
+    margin: 5px;
   }
   .image-row {
       display: flex;
-      overflow: auto; /* Adiciona uma barra de rolagem horizontal se necessário */
+      overflow: auto;
   }
   
   .image {
-      width: 100px; /* Largura das imagens */
-      height: 50px; /* A altura é ajustada automaticamente para manter a proporção original */
-      margin: 5px; /* Espaçamento entre as imagens */
+      width: 100px;
+      height: 50px;
+      margin: 5px; 
   }
   body {
       font-family: Arial, sans-serif;
